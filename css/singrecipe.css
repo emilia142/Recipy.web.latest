@@ -295,11 +295,8 @@ body {
 .recipe-photo img {
   width: min(88%, 480px);
   height: auto;
-  aspect-ratio: 4 / 5;
-  object-fit: cover;
-  border: 7px solid rgba(244, 239, 228, 0.08);
-  border-radius: 48% 48% 18px 18px;
   box-shadow: 0 22px 60px rgba(0, 0, 0, 0.28);
+  clip-path: circle(50% at 50% 50%);
 }
 
 /* Instructions */
